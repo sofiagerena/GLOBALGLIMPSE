@@ -13,6 +13,7 @@ struct Colombia: View {
         NavigationStack {
             ZStack {
                 Image("colombia")
+                    
                 
             }
         }

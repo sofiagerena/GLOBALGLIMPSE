@@ -13,7 +13,13 @@ struct ContentView: View {
         NavigationStack {
             VStack {
                 Text("Global Glimpse")
-                    Text("A glimpse of fashion all over the world")
+                    .font(.largeTitle)
+            
+                  
+                Text("A glimpse of fashion all over the world")
+                    .fontWeight(.light)
+                
+                    .padding(.bottom)
                 
                 NavigationLink(destination: Globe()) {
                     Text("Begin your traveling!")

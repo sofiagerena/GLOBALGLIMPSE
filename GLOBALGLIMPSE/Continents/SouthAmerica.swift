@@ -16,24 +16,31 @@ struct SouthAmerica: View {
                     NavigationLink(destination: Globe()) {
                             Text ("Back to the map!")
                     }
-                  
+                    
+                
+                ZStack {
+                    Image("southamerica")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .cornerRadius(15)
+                        .padding()
+                
+                NavigationLink(destination: Colombia()) {
+                    Image("mappointer")
+                        .resizable()
+                        .frame(width: 150.0, height: 150.0)
+                    
+                }
+                .offset(x: -60, y: -220)
+             
+           
+                    
+                }
+                
                 
             }
             
-            ZStack {
-                Image("southamerica")
-                    .resizable()
-                    .aspectRatio(contentMode: .fit)
-                    .cornerRadius(15)
-            
-            NavigationLink(destination: Colombia()) {
-                Image("mappointer")
-                    .offset(x: -70, y: -250)
-            }
-          
-            }
-            
-            
+   
         }
     }
 }
