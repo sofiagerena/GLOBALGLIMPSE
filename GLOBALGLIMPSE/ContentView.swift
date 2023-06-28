@@ -9,19 +9,19 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image("luli")
-            .resizable(resizingMode: .stretch)
-            .aspectRatio(contentMode: .fit)
-            .frame(width: 150.0)
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello people")
-                .font(.headline)
-                .fontWeight(.light)
-                .foregroundColor(Color.orange)
+      
+        NavigationStack {
+            VStack {
+                Text("Global Glimpse")
+                    Text("A glimpse of fashion all over the world")
+                
+                NavigationLink(destination: Globe()) {
+                    Text("Begin your traveling!")
+                }
+                
+            }
         }
-        .padding()
+        
     }
 }
 
