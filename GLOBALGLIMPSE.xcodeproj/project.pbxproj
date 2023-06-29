@@ -14,6 +14,7 @@
 		101D646A2A4B60DF0053AA1C /* GLOBALGLIMPSETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101D64692A4B60DF0053AA1C /* GLOBALGLIMPSETests.swift */; };
 		101D64742A4B60DF0053AA1C /* GLOBALGLIMPSEUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101D64732A4B60DF0053AA1C /* GLOBALGLIMPSEUITests.swift */; };
 		101D64762A4B60DF0053AA1C /* GLOBALGLIMPSEUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101D64752A4B60DF0053AA1C /* GLOBALGLIMPSEUITestsLaunchTests.swift */; };
+		FCA55BC82A4CF8C300C5FECA /* Philippines.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA55BC72A4CF8C300C5FECA /* Philippines.swift */; };
 		FCD269182A4CA98B00B964AB /* Globe.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD269172A4CA98B00B964AB /* Globe.swift */; };
 		FCD2691C2A4CAB3C00B964AB /* SouthAmerica.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD2691B2A4CAB3C00B964AB /* SouthAmerica.swift */; };
 		FCD2691E2A4CAB6500B964AB /* America.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD2691D2A4CAB6500B964AB /* America.swift */; };
@@ -50,6 +51,7 @@
 		101D646F2A4B60DF0053AA1C /* GLOBALGLIMPSEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GLOBALGLIMPSEUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		101D64732A4B60DF0053AA1C /* GLOBALGLIMPSEUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GLOBALGLIMPSEUITests.swift; sourceTree = "<group>"; };
 		101D64752A4B60DF0053AA1C /* GLOBALGLIMPSEUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GLOBALGLIMPSEUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FCA55BC72A4CF8C300C5FECA /* Philippines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Philippines.swift; sourceTree = "<group>"; };
 		FCD269172A4CA98B00B964AB /* Globe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globe.swift; sourceTree = "<group>"; };
 		FCD2691B2A4CAB3C00B964AB /* SouthAmerica.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SouthAmerica.swift; sourceTree = "<group>"; };
 		FCD2691D2A4CAB6500B964AB /* America.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = America.swift; sourceTree = "<group>"; };
@@ -109,8 +111,8 @@
 				101D64582A4B60DD0053AA1C /* GLOBALGLIMPSEApp.swift */,
 				101D645A2A4B60DD0053AA1C /* ContentView.swift */,
 				FCD269172A4CA98B00B964AB /* Globe.swift */,
-				FCD269212A4CAB7900B964AB /* Continents */,
 				FCD269262A4CB73D00B964AB /* Countries */,
+				FCD269212A4CAB7900B964AB /* Continents */,
 				101D645C2A4B60DF0053AA1C /* Assets.xcassets */,
 				101D645E2A4B60DF0053AA1C /* Preview Content */,
 			);
@@ -146,8 +148,8 @@
 			isa = PBXGroup;
 			children = (
 				FCD2691B2A4CAB3C00B964AB /* SouthAmerica.swift */,
-				FCD2691D2A4CAB6500B964AB /* America.swift */,
 				FCD2691F2A4CAB6F00B964AB /* Asia.swift */,
+				FCD2691D2A4CAB6500B964AB /* America.swift */,
 			);
 			path = Continents;
 			sourceTree = "<group>";
@@ -155,6 +157,7 @@
 		FCD269262A4CB73D00B964AB /* Countries */ = {
 			isa = PBXGroup;
 			children = (
+				FCA55BC72A4CF8C300C5FECA /* Philippines.swift */,
 				FCD269222A4CB15500B964AB /* Colombia.swift */,
 				FCD269242A4CB16300B964AB /* DominicanRep.swift */,
 			);
@@ -294,6 +297,7 @@
 				FCD269182A4CA98B00B964AB /* Globe.swift in Sources */,
 				FCD2691E2A4CAB6500B964AB /* America.swift in Sources */,
 				FCD269232A4CB15500B964AB /* Colombia.swift in Sources */,
+				FCA55BC82A4CF8C300C5FECA /* Philippines.swift in Sources */,
 				101D645B2A4B60DD0053AA1C /* ContentView.swift in Sources */,
 				FCD2691C2A4CAB3C00B964AB /* SouthAmerica.swift in Sources */,
 				101D64592A4B60DD0053AA1C /* GLOBALGLIMPSEApp.swift in Sources */,

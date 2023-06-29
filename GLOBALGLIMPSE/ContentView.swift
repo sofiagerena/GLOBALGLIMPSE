@@ -10,6 +10,10 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
       
+        //ok so all i did was build the basic functions of our app, but i didn't polish it or anything
+        //if you guys wanna adjust anything, feel free to :) -azille 6/28
+    
+        
         NavigationStack {
             VStack {
                 Text("Global Glimpse")

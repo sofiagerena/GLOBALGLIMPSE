@@ -9,7 +9,15 @@ import SwiftUI
 
 struct DominicanRep: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        //didn't do too much because i wanted to you guys to get have fun with your countries loll feel free to fix anything you want!!! -azille 6/28
+        
+        Text("Welcome to the Dominican Republic!")
+        
+        VStack {
+            Image("dominican republic")
+        }
+        
     }
 }
 

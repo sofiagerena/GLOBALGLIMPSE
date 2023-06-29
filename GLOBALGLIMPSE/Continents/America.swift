@@ -9,12 +9,45 @@ import SwiftUI
 
 struct America: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        VStack {
+            
+            Text("North America")
+                .font(.largeTitle)
+            Text("Select a country!")
+                .font(.body)
+            
+            NavigationLink(destination: Globe()) {
+                Text ("or return back to the map!")
+                    .foregroundColor(Color.blue)
+                
+                    .padding(.bottom)
+                
+            }
+            
+            ZStack {
+                Image("northam")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .cornerRadius(15)
+                    .padding()
+                
+                
+                NavigationLink(destination: DominicanRep()) {
+                    Image("mappointer")
+                        .resizable()
+                        .frame(width: 150.0, height: 150.0)
+                }
+                .offset(x: 60, y: 69)
+                
+            }
+            
+        }
     }
-}
-
-struct America_Previews: PreviewProvider {
-    static var previews: some View {
-        America()
+    
+    struct America_Previews: PreviewProvider {
+        static var previews: some View {
+            America()
+        }
     }
 }

@@ -13,40 +13,46 @@ struct SouthAmerica: View {
         NavigationStack {
             
             VStack {
-                    NavigationLink(destination: Globe()) {
-                            Text ("Back to the map!")
-                    }
-                    
-                
+                Text("South America")
+                    .font(.largeTitle)
+                Text("Select a country!")
+                    .font(.body)
+                         
+                NavigationLink(destination: Globe()) {
+                    Text ("or return back to the map!")
+                        .padding(.bottom)
+                  
+                }
+               
                 ZStack {
+                    
                     Image("southamerica")
                         .resizable()
                         .aspectRatio(contentMode: .fit)
                         .cornerRadius(15)
                         .padding()
-                
-                NavigationLink(destination: Colombia()) {
-                    Image("mappointer")
-                        .resizable()
-                        .frame(width: 150.0, height: 150.0)
                     
-                }
-                .offset(x: -60, y: -220)
-             
-           
-                    
+                    NavigationLink(destination: Colombia()) {
+                        Image("mappointer")
+                            .resizable()
+                            .frame(width: 150.0, height: 150.0)
+                        
+                    }
+                    .offset(x: -60, y: -220)
+
                 }
                 
                 
             }
             
-   
+            
         }
     }
-}
-
-struct SouthAmerica_Previews: PreviewProvider {
-    static var previews: some View {
-        SouthAmerica()
+    
+    
+    struct SouthAmerica_Previews: PreviewProvider {
+        static var previews: some View {
+            SouthAmerica()
+        }
     }
 }

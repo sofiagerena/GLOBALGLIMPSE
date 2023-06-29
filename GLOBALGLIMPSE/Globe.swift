@@ -13,6 +13,9 @@ struct Globe: View {
         NavigationStack {
             
             Text("Where should we start?")
+                .font(.title)
+            Text("Select a continent.")
+                .fontWeight(.light)
             ZStack {
              
                 Image("worldmap")
@@ -25,10 +28,24 @@ struct Globe: View {
                     Image("mappointer")
                         .resizable()
                         .frame(width: 80.0, height: 80.0)
-                        
                 }
                 .offset(x: -60, y: 10)
                 
+                
+                NavigationLink(destination: Asia()) {
+                    Image("mappointer")
+                        .resizable()
+                        .frame(width: 80.0, height: 80.0)
+                }
+                .offset(x: 80, y: -50)
+                
+                
+                NavigationLink(destination: America()) {
+                    Image("mappointer")
+                        .resizable()
+                        .frame(width: 80.0, height: 80.0)
+                }
+                .offset(x: -100, y: -60)
                 
         }
             
