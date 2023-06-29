@@ -9,13 +9,20 @@ import SwiftUI
 
 struct DominicanRep: View {
     var body: some View {
-        
-        //didn't do too much because i wanted to you guys to get have fun with your countries loll feel free to fix anything you want!!! -azille 6/28
-        
-        Text("Welcome to the Dominican Republic!")
-        
         VStack {
-            Image("dominican republic")
+            Text("Welcome to the Dominican Republic!")
+            NavigationStack {  NavigationLink(destination: Globe()) {
+                Text ("return to the main map!")
+                    .foregroundColor(Color.blue)
+                
+                    .padding(.bottom)
+                }
+                Image("dominican republic")
+                    .resizable()
+                    .frame(width: 380.0, height: 390.0)
+                
+            }
+           
         }
         
     }

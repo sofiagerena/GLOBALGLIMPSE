@@ -14,6 +14,10 @@
 		101D646A2A4B60DF0053AA1C /* GLOBALGLIMPSETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101D64692A4B60DF0053AA1C /* GLOBALGLIMPSETests.swift */; };
 		101D64742A4B60DF0053AA1C /* GLOBALGLIMPSEUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101D64732A4B60DF0053AA1C /* GLOBALGLIMPSEUITests.swift */; };
 		101D64762A4B60DF0053AA1C /* GLOBALGLIMPSEUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101D64752A4B60DF0053AA1C /* GLOBALGLIMPSEUITestsLaunchTests.swift */; };
+		101D64E12A4DDA4D0053AA1C /* InfoColombiaMedellin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101D64E02A4DDA4D0053AA1C /* InfoColombiaMedellin.swift */; };
+		101D64E32A4DFED80053AA1C /* InfoColombiaBogota.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101D64E22A4DFED80053AA1C /* InfoColombiaBogota.swift */; };
+		101D64E72A4E0EB50053AA1C /* InfoColombiaAmazonas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101D64E62A4E0EB50053AA1C /* InfoColombiaAmazonas.swift */; };
+		101D64E92A4E0F5D0053AA1C /* InfoColombiaCartagena.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101D64E82A4E0F5D0053AA1C /* InfoColombiaCartagena.swift */; };
 		FCA55BC82A4CF8C300C5FECA /* Philippines.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA55BC72A4CF8C300C5FECA /* Philippines.swift */; };
 		FCD269182A4CA98B00B964AB /* Globe.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD269172A4CA98B00B964AB /* Globe.swift */; };
 		FCD2691C2A4CAB3C00B964AB /* SouthAmerica.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD2691B2A4CAB3C00B964AB /* SouthAmerica.swift */; };
@@ -51,6 +55,10 @@
 		101D646F2A4B60DF0053AA1C /* GLOBALGLIMPSEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GLOBALGLIMPSEUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		101D64732A4B60DF0053AA1C /* GLOBALGLIMPSEUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GLOBALGLIMPSEUITests.swift; sourceTree = "<group>"; };
 		101D64752A4B60DF0053AA1C /* GLOBALGLIMPSEUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GLOBALGLIMPSEUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		101D64E02A4DDA4D0053AA1C /* InfoColombiaMedellin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoColombiaMedellin.swift; sourceTree = "<group>"; };
+		101D64E22A4DFED80053AA1C /* InfoColombiaBogota.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoColombiaBogota.swift; sourceTree = "<group>"; };
+		101D64E62A4E0EB50053AA1C /* InfoColombiaAmazonas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoColombiaAmazonas.swift; sourceTree = "<group>"; };
+		101D64E82A4E0F5D0053AA1C /* InfoColombiaCartagena.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoColombiaCartagena.swift; sourceTree = "<group>"; };
 		FCA55BC72A4CF8C300C5FECA /* Philippines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Philippines.swift; sourceTree = "<group>"; };
 		FCD269172A4CA98B00B964AB /* Globe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globe.swift; sourceTree = "<group>"; };
 		FCD2691B2A4CAB3C00B964AB /* SouthAmerica.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SouthAmerica.swift; sourceTree = "<group>"; };
@@ -159,6 +167,10 @@
 			children = (
 				FCA55BC72A4CF8C300C5FECA /* Philippines.swift */,
 				FCD269222A4CB15500B964AB /* Colombia.swift */,
+				101D64E82A4E0F5D0053AA1C /* InfoColombiaCartagena.swift */,
+				101D64E62A4E0EB50053AA1C /* InfoColombiaAmazonas.swift */,
+				101D64E22A4DFED80053AA1C /* InfoColombiaBogota.swift */,
+				101D64E02A4DDA4D0053AA1C /* InfoColombiaMedellin.swift */,
 				FCD269242A4CB16300B964AB /* DominicanRep.swift */,
 			);
 			path = Countries;
@@ -294,13 +306,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				101D64E32A4DFED80053AA1C /* InfoColombiaBogota.swift in Sources */,
 				FCD269182A4CA98B00B964AB /* Globe.swift in Sources */,
 				FCD2691E2A4CAB6500B964AB /* America.swift in Sources */,
 				FCD269232A4CB15500B964AB /* Colombia.swift in Sources */,
+				101D64E72A4E0EB50053AA1C /* InfoColombiaAmazonas.swift in Sources */,
 				FCA55BC82A4CF8C300C5FECA /* Philippines.swift in Sources */,
 				101D645B2A4B60DD0053AA1C /* ContentView.swift in Sources */,
+				101D64E12A4DDA4D0053AA1C /* InfoColombiaMedellin.swift in Sources */,
 				FCD2691C2A4CAB3C00B964AB /* SouthAmerica.swift in Sources */,
 				101D64592A4B60DD0053AA1C /* GLOBALGLIMPSEApp.swift in Sources */,
+				101D64E92A4E0F5D0053AA1C /* InfoColombiaCartagena.swift in Sources */,
 				FCD269252A4CB16300B964AB /* DominicanRep.swift in Sources */,
 				FCD269202A4CAB6F00B964AB /* Asia.swift in Sources */,
 			);

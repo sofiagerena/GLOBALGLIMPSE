@@ -16,14 +16,10 @@ struct Asia: View {
                 .font(.largeTitle)
             Text("Select a country!")
                 .font(.body)
-            
-            NavigationLink(destination: Globe()) {
-                Text ("or return back to the map!")
-                    .foregroundColor(Color.blue)
                 
                     .padding(.bottom)
                 
-            }
+            
             
             ZStack {
                 Image("asia")

@@ -17,9 +17,7 @@ struct SouthAmerica: View {
                     .font(.largeTitle)
                 Text("Select a country!")
                     .font(.body)
-                         
-                NavigationLink(destination: Globe()) {
-                    Text ("or return back to the map!")
+            
                         .padding(.bottom)
                   
                 }
@@ -41,11 +39,7 @@ struct SouthAmerica: View {
                     .offset(x: -60, y: -220)
 
                 }
-                
-                
             }
-            
-            
         }
     }
     
@@ -55,4 +49,4 @@ struct SouthAmerica: View {
             SouthAmerica()
         }
     }
-}
+

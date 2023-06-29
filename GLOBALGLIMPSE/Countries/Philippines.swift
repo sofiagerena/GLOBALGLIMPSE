@@ -15,6 +15,13 @@ struct Philippines: View {
         VStack {
             
             Text("Welcome to the Philippines!")
+            NavigationLink(destination: Globe()) {
+                Text ("return to the main map!")
+                    .foregroundColor(Color.blue)
+                
+                    .padding(.bottom)
+                
+            }
             
     Image("azille no name")
                 .resizable()
