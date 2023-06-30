@@ -26,7 +26,7 @@ struct Colombia: View {
                             .resizable()
                             .frame(width: 120.0, height: 120.0)
                     }
-                    .offset(x: -70, y: -140)
+                    .offset(x: -70, y: -110)
                     NavigationLink(destination: InfoColombiaBogota()) {
                         Image("mappointer")
                             .resizable()
@@ -38,7 +38,7 @@ struct Colombia: View {
                             .resizable()
                             .frame(width: 120.0, height: 120.0)
                     }
-                    .offset(x: -40, y: -245)
+                    .offset(x: -70, y: -235)
                     NavigationLink(destination: InfoColombiaAmazonas()) {
                         Image("mappointer")
                             .resizable()
