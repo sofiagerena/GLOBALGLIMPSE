@@ -24,12 +24,15 @@ struct InfoColombiaCartagena: View {
             Text ("The Palenqueras are Afro-descendant women who represent the culture and tradition of San Basilio de Palenque, a town near Cartagena recognized as the first free settlement of enslaved people in the Americas.")
                 .font(.callout)
                 .padding ([.top, .leading, .trailing])
-            ZStack{
-                
+            
+            VStack{
                     Image("palenque")
                     .resizable()
-                        .padding()
-                        .frame(width: 390.0, height: 350.0)
+                      .frame(width: 280.0, height: 250.0)
+                  }
+            
+            ZStack{
+                
             Text ("It consists of a long and wide skirt with multiple layers, usually in vibrant and eye-catching colors such as red, yellow, green, and blue. Additionally, they wear a white blouse adorned with lace, colorful beaded necklaces, colorful turbans on their heads, and a decorated apron.")
                 .font(.callout)
                 .multilineTextAlignment(.leading)

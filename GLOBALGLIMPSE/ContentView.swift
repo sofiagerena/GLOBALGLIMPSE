@@ -9,12 +9,15 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-
+        ZStack{
+           
             NavigationStack {
                 VStack {
-                    
+                    Color(.systemBrown)
+                        .ignoresSafeArea()
                     Text("Global Glimpse")
                         .font(.largeTitle)
+                        .padding(.all)
                     
                     
                     Text("A glimpse of fashion all over the globe")
@@ -24,9 +27,12 @@ struct ContentView: View {
                     
                     NavigationLink(destination: Globe()) {
                         Text("Begin your traveling!")
+                            .padding(.vertical)
                     }
                 }
             }
+        }
+           
         }
            
         }
