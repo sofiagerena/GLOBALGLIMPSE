@@ -13,22 +13,25 @@ struct ContentView: View {
            
             NavigationStack {
                 VStack {
-                    Color(.systemBrown)
-                        .ignoresSafeArea()
-                    Text("Global Glimpse")
-                        .font(.largeTitle)
-                        .padding(.all)
+        
+                    Image("icon")
                     
-                    
-                    Text("A glimpse of fashion all over the globe")
-                        .fontWeight(.light)
-                    
-                        .padding(.bottom)
-                    
-                    NavigationLink(destination: Globe()) {
-                        Text("Begin your traveling!")
-                            .padding(.vertical)
+                    ZStack{
+                        Color(.systemGray6)
+                            .ignoresSafeArea()
+                        NavigationLink(destination: Globe()) {
+                            Image("icon 3")
+                                .resizable()
+                                .frame(width: 200.0, height: 200.0)
+                                .padding(.vertical)
+                                
+                        }
                     }
+                    
+               
+               
+                    
+             
                 }
             }
         }

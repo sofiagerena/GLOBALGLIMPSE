@@ -10,7 +10,13 @@ import SwiftUI
 struct Colombia: View {
     var body: some View {
         VStack {
-            Text("Welcome to Colombia!")
+            
+            Image ("sofia no name")
+                .resizable()
+                .frame(width: 100.0, height:100.0)
+            Text("Welcome to Colombia! 🇨🇴")
+                .font(.title)
+                .fontWeight(.bold) 
             NavigationStack {  NavigationLink(destination: Globe()) {
                 Text ("return to the main map!")
                     .foregroundColor(Color.blue)

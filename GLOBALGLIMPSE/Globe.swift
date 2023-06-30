@@ -13,9 +13,13 @@ struct Globe: View {
         NavigationStack {
             
             Text("Where should we start?")
-                .font(.title)
+                .font(.largeTitle)
+                .fontWeight(.semibold)
+                .foregroundColor(Color(hue: 0.548, saturation: 1.0, brightness: 0.732))
             Text("Select a continent.")
-                .fontWeight(.light)
+                .font(.title3)
+                .fontWeight(.semibold)
+                .foregroundColor(Color(hue: 0.496, saturation: 1.0, brightness: 0.6))
             ZStack {
              
                 Image("worldmap")

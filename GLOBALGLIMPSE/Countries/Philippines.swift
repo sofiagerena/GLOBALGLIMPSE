@@ -20,6 +20,7 @@ struct Philippines: View {
               Text("Welcome to the Philippines!")
                 .font(.title2)
                 .fontWeight(.bold)
+                .foregroundColor(Color.black)
                 .multilineTextAlignment(.center)
             
           
@@ -36,7 +37,8 @@ struct Philippines: View {
                   .resizable()
                   .frame(width: 200.0, height: 200.0)
                 VStack{
-                  Text("The Philippines is an archipelago located in southeastern Asia. There are 175+ languages spoken in the country and is incredibly rich with culture.")
+                    Text("The Philippines is an archipelago located in southeastern Asia. There are 175+ languages spoken in the country and is incredibly rich with culture.")
+                        .font(.callout)
                      
                         .padding()
                      
@@ -50,18 +52,20 @@ struct Philippines: View {
                     
                     Text("Traditional Clothing")
                         .font(.headline)
+                        .foregroundColor(Color(hue: 0.096, saturation: 1.0, brightness: 0.94))
                     
                     HStack {
                         Image("Philippines clothing")
                             .resizable()
                             .frame(width: 100.0, height: 120.0)
-                        Text("An example of the Philippines' culture can be seen its traditional clothing. Here are 3 examples:")
+                        Text("An example of the Philippines' culture can be seen its traditional clothing. Here are 2 examples:")
                             .multilineTextAlignment(.center)
                     }
                     
                     VStack{
                         Text("Barong")
                             .font(.headline)
+                            .foregroundColor(Color(hue: 0.58, saturation: 0.96, brightness: 0.652))
                     }
                     HStack{
                         Image("Barong 1")
@@ -75,6 +79,7 @@ struct Philippines: View {
                     VStack{
                         Text("Filipiana")
                             .font(.headline)
+                            .foregroundColor(Color(hue: 1.0, saturation: 0.956, brightness: 0.516))
                     }
                     HStack{
                         Image("filipiana")
