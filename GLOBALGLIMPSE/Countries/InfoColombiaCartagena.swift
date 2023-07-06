@@ -37,14 +37,17 @@ struct InfoColombiaCartagena: View {
                             .frame(width: 310.0, height: 300.0)
                     }
                     
-                    ZStack{
+                   
                         
                         Text ("It consists of a long and wide skirt with multiple layers, usually in vibrant and eye-catching colors such as red, yellow, green, and blue. Additionally, they wear a white blouse adorned with lace, colorful beaded necklaces, colorful turbans on their heads, and a decorated apron.")
                             .font(.callout)
                             .padding([.top, .leading, .trailing])
+                    
+                    Image("palen")
+                        .resizable()
+                        .frame(width: 310.0, height: 300.0)
                         
-                        
-                    }
+
                 }
             }
         }
