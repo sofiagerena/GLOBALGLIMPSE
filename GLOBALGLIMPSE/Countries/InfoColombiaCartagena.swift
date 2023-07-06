@@ -21,26 +21,31 @@ struct InfoColombiaCartagena: View {
                 .foregroundColor(Color(hue: 0.088, saturation: 1.0, brightness: 1.0))
                 .multilineTextAlignment(.center)
                 .padding (.top)
-            Text("Palenqueras. Always smiling and kind, they walk dressed in color through the streets of Cartagena de Indias, enticing passersby with exotic fruits and sweets from Colombia.").font(.callout)
-                .padding ([.top, .leading, .trailing])
-            Text ("The Palenqueras are Afro-descendant women who represent the culture and tradition of San Basilio de Palenque, a town near Cartagena recognized as the first free settlement of enslaved people in the Americas.")
-                .font(.callout)
-                .padding ([.top, .leading, .trailing])
-            
-            VStack{
-                    Image("palenque")
-                    .resizable()
-                      .frame(width: 280.0, height: 250.0)
-                  }
-            
-            ZStack{
-                
-            Text ("It consists of a long and wide skirt with multiple layers, usually in vibrant and eye-catching colors such as red, yellow, green, and blue. Additionally, they wear a white blouse adorned with lace, colorful beaded necklaces, colorful turbans on their heads, and a decorated apron.")
-                .font(.callout)
-                .multilineTextAlignment(.leading)
-                .padding ([.leading, .bottom, .trailing])
-            
-              
+            Spacer()
+            ScrollView {
+                VStack {
+                    Text("Palenqueras. Always smiling and kind, they walk dressed in color through the streets of Cartagena de Indias, enticing passersby with exotic fruits and sweets from Colombia.").font(.callout).padding([.top, .leading, .trailing])
+                   
+                    Text ("The Palenqueras are Afro-descendant women who represent the culture and tradition of San Basilio de Palenque, a town near Cartagena recognized as the first free settlement of enslaved people in the Americas.")
+                        .font(.callout)
+                        .padding(.horizontal, 14.8)
+                       
+                    
+                    VStack{
+                        Image("palenque")
+                            .resizable()
+                            .frame(width: 310.0, height: 300.0)
+                    }
+                    
+                    ZStack{
+                        
+                        Text ("It consists of a long and wide skirt with multiple layers, usually in vibrant and eye-catching colors such as red, yellow, green, and blue. Additionally, they wear a white blouse adorned with lace, colorful beaded necklaces, colorful turbans on their heads, and a decorated apron.")
+                            .font(.callout)
+                            .padding([.top, .leading, .trailing])
+                        
+                        
+                    }
+                }
             }
         }
     }

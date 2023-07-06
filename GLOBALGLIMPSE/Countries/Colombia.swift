@@ -22,7 +22,6 @@ struct Colombia: View {
                     .foregroundColor(Color.blue)
                     .padding(.top)
             }
-            .offset(x: -0, y: 600)
                 
                 ZStack {
                     Image("colombia")
