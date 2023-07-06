@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "juan_valdez_cafe-logo-9d9a5c862e-seeklogo.com_360.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -32,6 +32,7 @@ struct InfoColombiaMedellin: View {
                
                 Text("Among the symbols of Colombia is Juan Valdez, the coffee peasant who appears on the Colombian Coffee seal and wears this same traditional costume.")
                     .padding([.top, .leading, .trailing])
+                Image("juan valdez cafe")
                
                 Text("On the other hand, the silleteros proudly wear this typical costume during the Flower Festival celebrated in Medellin, a festival that showcases the tradition of carrying enormous floral arrangements, on their backs.")
                     .padding([.top, .leading, .trailing])
