@@ -9,15 +9,11 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        ZStack{
-           
+
             NavigationStack {
-                VStack {
-        
-                    Image("icon")
-                    
+                VStack{
                     ZStack{
-                        Color(.systemGray6)
+                        Color(.systemYellow)
                             .ignoresSafeArea()
                         NavigationLink(destination: Globe()) {
                             Image("icon 3")
@@ -26,14 +22,11 @@ struct ContentView: View {
                                 .padding(.vertical)
                                 
                         }
-                    }
-                    
-               
-               
-                    
-             
+
                 }
             }
+         
+            
         }
            
         }
