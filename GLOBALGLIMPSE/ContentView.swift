@@ -9,29 +9,27 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-
-            NavigationStack {
-                VStack{
-                    ZStack{
-                        Color(.systemYellow)
-                            .ignoresSafeArea()
-                        NavigationLink(destination: Globe()) {
-                            Image("icon 3")
-                                .resizable()
-                                .frame(width: 200.0, height: 200.0)
-                                .padding(.vertical)
+        ZStack{
+                     Image("contentview")
+                  .resizable()
+                  .aspectRatio(contentMode: .fit)
+                  .ignoresSafeArea()
+                      
+                    
                                 
                         }
-
-                }
+                 
+                
             }
-         
+}
+
+
             
-        }
+        
            
-        }
+        
            
-        }
+        
     
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
