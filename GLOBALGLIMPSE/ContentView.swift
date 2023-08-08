@@ -10,20 +10,22 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         ZStack{
-                     Image("contentview")
+            Image("contentview")
                   .resizable()
                   .aspectRatio(contentMode: .fit)
-                  .ignoresSafeArea()
-                      
-                    
-                                
-                        }
+                
+            NavigationLink(destination: Globe()){
+                Image("icon 3")
+                    .resizable()
+                    .frame(width: 150.0, height: 140.0)
+                   }
+            .offset(x: 0, y: 240)
                  
                 
             }
 }
 
-
+}
             
         
            
