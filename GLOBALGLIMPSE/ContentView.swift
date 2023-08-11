@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
+        NavigationStack {
         ZStack{
             Image("contentview")
                   .resizable()
@@ -21,7 +22,7 @@ struct ContentView: View {
                    }
             .offset(x: 0, y: 240)
                  
-                
+        }
             }
 }
 
